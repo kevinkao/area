@@ -11,6 +11,7 @@ var Area = function(element, options) {
 		"background-color": "#C8C8C8"
 	});
 
+
 	switch(type(options.source)) {
 		case 'array':
 			$.each(options.source, function(_, prop) {
