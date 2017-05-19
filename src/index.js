@@ -1,6 +1,7 @@
 
 var _type = function(item) {
 	return Object.prototype.toString.call(item);
+	console.log(3214);
 };
 
 var type = function(item) {
