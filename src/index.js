@@ -3,7 +3,6 @@ var _type = function(item) {
 	return Object.prototype.toString.call(item);
 };
 
-
 var type = function(item) {
 	var origType = _type(item);
 	var pattern = /^\[object\s{1}(\w+)\]$/;
@@ -13,6 +12,7 @@ var type = function(item) {
 var isObject = function(obj) {
 	return type(obj) === 'object';
 };
+
 
 var isArray = function(arr) {
 	return type(arr) === 'array';

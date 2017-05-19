@@ -21,5 +21,7 @@ var Layer = function(options) {
 Layer.className = 'layer';
 
 Layer.prototype = {
-	addSquare: function() {}
+	addSquare: function() {
+		console.log(321);
+	}
 };
