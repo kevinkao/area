@@ -18,6 +18,8 @@ var Layer = function(options) {
 	});
 };
 
+
+
 Layer.className = 'layer';
 
 Layer.prototype = {
