@@ -3,6 +3,7 @@ var _type = function(item) {
 	return Object.prototype.toString.call(item);
 };
 
+
 var type = function(item) {
 	var origType = _type(item);
 	var pattern = /^\[object\s{1}(\w+)\]$/;
