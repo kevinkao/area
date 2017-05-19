@@ -14,7 +14,6 @@ var isObject = function(obj) {
 	return type(obj) === 'object';
 };
 
-
 var isArray = function(arr) {
 	return type(arr) === 'array';
 };
